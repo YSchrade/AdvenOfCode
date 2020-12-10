@@ -5,9 +5,9 @@ using System.Reflection;
 using AdventOfCode;
 
 
-var path =  @"data\day6.txt";
+var path =  @"data\day7.txt";
 
-var puzzle = new Day6(path);
+var puzzle = new Day7(path);
 var erg = 0l;
 var s = Stopwatch.StartNew();
 erg = puzzle.Solve1();
