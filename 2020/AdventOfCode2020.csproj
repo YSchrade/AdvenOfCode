@@ -6,6 +6,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Resource Include="data\day1.txt" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Program.cs">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Compile>
@@ -15,7 +19,13 @@
     <None Update="data.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Update="data\data.txt">
+    <None Update="data\day1.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="data\day2.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Update="data\day3.txt">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>

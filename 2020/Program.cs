@@ -5,9 +5,9 @@ using System.Reflection;
 using AdventOfCode;
 
 
-string path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location), @"data\day2.txt");
+string path =  @"data\day3.txt";
 
-var puzzle = new Day2(path);
+var puzzle = new Day3(path);
 var erg = 0l;
 var s = Stopwatch.StartNew();
 erg = puzzle.Solve1();
