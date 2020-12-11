@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics.CodeAnalysis;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -46,9 +47,18 @@ namespace AdventOfCode2020
             numbers.Add(numbers.Last() + 3);
             var count = 0;
 
+            var poss = new long[numbers.Last() +1];
+            Array.Fill(poss, 0);
+            poss[0] = 1;
+            poss[1] = poss[0];
+            poss[2] = poss[0] + poss[1];
+            poss[3] = poss[0] + poss[1] + poss[3];
 
 
-            return - 1;
+            foreach (var number in numbers.Skip(3))
+                poss[number] = poss[number - 1] + poss[number - 2] + poss[number - 3];
+
+            return poss.Last();
             
         }
     }
