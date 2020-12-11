@@ -7,7 +7,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
 
-namespace AdventOfCode
+namespace AdventOfCode2020
 {
     internal class Day8 : IDay
     {

@@ -4,7 +4,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 
-namespace AdventOfCode
+namespace AdventOfCode2020
 {
     internal class Day4 : IDay
     {

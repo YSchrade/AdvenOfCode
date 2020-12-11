@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.IO;
 
-namespace AdventOfCode
+namespace AdventOfCode2020
 {
     internal class Day1 : IDay
     {

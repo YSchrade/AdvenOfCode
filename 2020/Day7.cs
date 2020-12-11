@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace AdventOfCode
+namespace AdventOfCode2020
 {
     internal class Day7 : IDay
     {

@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Reflection.Metadata;
 using System.Text;
 
-namespace AdventOfCode
+namespace AdventOfCode2020
 {
     internal class Day2 : IDay
     {
