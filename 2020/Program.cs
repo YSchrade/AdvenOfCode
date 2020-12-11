@@ -2,15 +2,15 @@
 using System.Diagnostics;
 using System.IO;
 using System.Reflection;
-using AdventOfCode;
+using AdventOfCode2020;
 
 
-var path =  @"data\day9.txt";
+var path =  @"data\day10.txt";
 
-var puzzle = new Day9(path);
-var erg = 0l;
+var puzzle = new Day10(path);
+var erg = 0L;
 var s = Stopwatch.StartNew();
-erg = puzzle.Solve1();
+erg = puzzle.Solve2();
 s.Stop();
 
 Console.WriteLine(erg);
